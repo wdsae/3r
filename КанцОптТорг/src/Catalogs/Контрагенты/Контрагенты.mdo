@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dba69ec8-b4cc-4751-84ff-24cb5d67dde4">
+  <producedTypes>
+    <objectType typeId="c8073154-e384-4bbf-8707-b7431b64f5f6" valueTypeId="ebac370e-b46a-41e0-8015-acce9e5705bc"/>
+    <refType typeId="acc27751-2015-47e4-9d5e-48a0a5cbb254" valueTypeId="0b17aa24-505f-444f-bee6-b259c02662bc"/>
+    <selectionType typeId="963b09d6-b592-425d-8cd6-26cdf27f0e51" valueTypeId="0c911cca-cdd6-4151-beb7-c2f835bbaba4"/>
+    <listType typeId="6dda3e2b-6fa0-4e89-b20e-f6cf89c598d2" valueTypeId="48a29590-0b52-4385-8999-4175ecbeccc3"/>
+    <managerType typeId="91bb8a3e-4097-40e7-9340-c8dbfc8d65e7" valueTypeId="d4667c76-b489-4249-8727-3f77771ed74c"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b193c5d6-57c0-4b31-b707-c01915eae6b0">
+    <name>ЭтоКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это клиент</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="1a690351-c708-4d31-a079-0e9dc1942587">
+    <name>ЭтоПоставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это поставщик</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="45570576-e968-4375-bc3d-ceed0901a13c">
+    <name>ЭтоПрочиеОтношения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это прочие отношения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="54fb4f8c-3b65-4af7-806c-cc5ead0cbe81">
+    <name>ОтветственныйМенеджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный менеджер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

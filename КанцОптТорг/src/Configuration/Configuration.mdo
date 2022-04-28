@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69e8fb15-99ef-4a21-8516-556415605ab7">
+  <name>Конфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4e9d2c69-dcbf-4549-9a27-59c3f63ad052"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9d57fd1f-d577-4ec9-8148-e086461323ec"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8c5058ce-48fe-444e-935b-b70bacf015b7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="bd867e61-a9d1-4ca9-bef4-d846b62b1dd1"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="659e5c57-d22f-444d-8599-effe22e45ca9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="86168c82-2ddf-4ced-97b4-584deef10e27"/>
+  <configurationExtensionCompatibilityMode>8.3.8</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <languages uuid="699ec7f0-d0ef-48e3-b0d2-29a656a1edbb">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <constants>Constant.НаименованиеОрганизации</constants>
+  <constants>Constant.НаименованиеСклада</constants>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documents>Document.РеализацияТоваров</documents>
+  <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+</mdclass:Configuration>
